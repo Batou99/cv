@@ -88,7 +88,7 @@
 								<li>Sinatra, Grape</li>
                 <li>Payments integration</li>
                 <li>Video Streaming</li>
-								<li class="last">Python</li>
+								<li class="last">Elixir, Python</li>
 							</ul>
 
 							<ul class="talent">
@@ -99,7 +99,7 @@
                 <li>Cloud Search</li>
 								<li><strong>Virtualization</strong></li>	
 								<li>VMWare: Workstation, ESX, VI</li>						
-                <li>VirtualBox, Chef, Vagrant</li>
+                <li>VBox, Docker, Chef, Vagrant</li>
 								<li><strong>OS</strong></li>
 								<li>UNIX (Linux ,Solaris, AIX, OSX)</li>
 								<li class="last">Windows Server (2003 and 2008)</li>
@@ -113,7 +113,7 @@
                 <li>Scripting (UNIX and Powershell)</li>
 								<li>Microsoft Exchange</li>
 								<li>Business Objects</li>
-								<li>Apache  Tomcat, Weblogic</li>
+								<li>Apache, Nginx, Tomcat, Weblogic</li>
 								<li>Criptography and Security</li>
 								<li>Project Management, Agile, ITIL</li>
 								<li class="last">Matlab</li>
@@ -131,8 +131,11 @@
 							<div class="job">
 								<h2>CTO / Lead Developer / Architect</h2>
 								<h3>Ticckle.com</h3>
-								<h4>2013</h4>
-                <p>As CTO I am defining technologies to use, development procedures and team management. As Architect I defined the whole web application architecture with Ruby on Rails as a web services REST backend for a web app using backbone and an iOS app, this allowed us to reuse most of the code for both the Backbone frontend and the iPhone and iPad iOS app. I also defined and architecture that uses Amazon AWS for deployment and different Amazon services for functionality (for example video transcoding). As Lead Developer I am implementing most of the code and helping the rest of the developers of the team to work with our codebase. I also help the designers to integrate their designs into our codebase. I am also working remotely from Spain and managing teams in London and Warsaw</p>
+								<h4>2013-2014</h4>
+                <p>When I came to this project I found a monolithic rails app with MySQL as DB running on heroku. I engineered a complete change of architecture. First a move from heroku to Amazon AWS as we could offload a lot of app processes (Storage, transcoding, load balancing, etc) using the amazon API. Then a separation of the app to a full SOA architecture, Rails backend and Backbone + Marionette frontend. Added background processing using Redis/Sidekiq and moved the DB backend from MySQL to MongoDB.
+				In the end we managed to decrease the load time of the front page of the application from 7 seconds to less than a second using the same resources.</p>
+				<p>I also led a team of 7 people and ensured best practices as proper git branching, pull requests, BDD and project management via Pivotal Tracker. The team was comprised of remote developers and designers (in in London an Krakow) and it showed that doing good work and achieving results is compatible with remote teams too.</p>
+				<p>From the systems point of view I engineered the move from a local development environment to a complete virtualized one (Using VMWare and vagrant/VBox)</p>
 							</div>
 
 							<div class="job">
